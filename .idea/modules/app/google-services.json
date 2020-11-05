@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1092089429160",
+    "firebase_url": "https://little-italy-pizzeria-20e21.firebaseio.com",
+    "project_id": "little-italy-pizzeria-20e21",
+    "storage_bucket": "little-italy-pizzeria-20e21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092089429160:android:3b72220bf5279f8d59569d",
+        "android_client_info": {
+          "package_name": "com.example.littleitalypizzeria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092089429160-b7ls8kd5fmgs74o9o1v0fv1pinb2on76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.littleitalypizzeria",
+            "certificate_hash": "f2e61f78fc5ca9b4ce2a4af3f8f143895b309d40"
+          }
+        },
+        {
+          "client_id": "1092089429160-50vc9q90tcq2ro5do4iptpahpcv7aonu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3OQoVhCFFU3aGGA3-BF78gkY_0RfGOqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092089429160-50vc9q90tcq2ro5do4iptpahpcv7aonu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

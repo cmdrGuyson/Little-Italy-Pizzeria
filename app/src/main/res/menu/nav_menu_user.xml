@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="ACCOUNT">
+        <menu>
+            <item android:title="My Account" android:id="@+id/account_option" android:icon="@drawable/ic_baseline_account_circle_24" />
+            <!--<item android:title="Location" android:id="@+id/location_option" android:icon="@drawable/ic_baseline_location_on_24" />-->
+            <!--<item android:title="Favourites" android:id="@+id/favourites_option" android:icon="@drawable/ic_baseline_favorite_24" />-->
+            <item android:title="Cart" android:id="@+id/cart_option" android:icon="@drawable/ic_baseline_shopping_cart_24" />
+            <item android:title="My Orders" android:id="@+id/orders_option" android:icon="@drawable/ic_baseline_list_alt_24" />
+            <item android:title="Logout" android:id="@+id/logout_option" android:icon="@drawable/ic_log_out" />
+        </menu>
+    </item>
+
+    <item android:title="PIZZERIA">
+        <menu>
+            <item android:title="View Menu" android:id="@+id/menu_option" android:icon="@drawable/ic_baseline_fastfood_24"/>
+            <item android:title="Contact Us" android:id="@+id/contact_option" android:icon="@drawable/ic_baseline_storefront_24" />
+        </menu>
+    </item>
+
+</menu>

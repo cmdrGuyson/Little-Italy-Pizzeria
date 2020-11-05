@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Little Italy Pizzeria</string>
+
+
+    <string name="openNavDrawer">NavBar Open</string>
+    <string name="closeNavDrawer">NavBar Closed</string>
+    <string name="google_maps_api_key">Insert_key</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

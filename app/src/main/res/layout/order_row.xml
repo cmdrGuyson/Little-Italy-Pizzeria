@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="#00FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button_shape">
+
+        <TextView
+            android:id="@+id/orderID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            android:text="ID-MF6EY7i8mhgFG3WroLS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderID"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="Total Amount"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/totalPriceView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderID"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="$ 59.99"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/totalPrice"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="Order Type"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/typeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/totalPrice"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Reservation"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/orderedAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="Ordered At"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/orderedAtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="08/19/2020 20:32:29"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="ACCOUNT">
+        <menu>
+            <item android:title="Login" android:id="@+id/login_option" android:icon="@drawable/ic_baseline_account_circle_24" />
+            <item android:title="Register" android:id="@+id/register_option" android:icon="@drawable/ic_baseline_supervisor_account_24" />
+        </menu>
+    </item>
+
+    <item android:title="PIZZERIA">
+        <menu>
+            <item android:title="View Menu" android:id="@+id/menu_option" android:icon="@drawable/ic_baseline_fastfood_24"/>
+            <item android:title="Contact Us" android:id="@+id/contact_option" android:icon="@drawable/ic_baseline_storefront_24" />
+        </menu>
+    </item>
+
+</menu>
